@@ -77,7 +77,7 @@ userScheme.methods.generateToken = function(cb){
     })
 }
 
-userScheme.statics.findByToken = function (toekn, cb){
+userScheme.statics.findByToken = function (token, cb){
     var user = this;
 
     // user.id + '' = token
